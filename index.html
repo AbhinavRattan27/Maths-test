@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee>Note: Sums may appear twice or many times. New sums would be added later.</marquee>
+    <h1 id="h1">Maths Quiz</h1>
+    <div class="center">
+    <input type="text" id="input1" class="input1">
+    <button type="button" onclick="hehe()" class="button1" id="submit">Submit</button>
+   
+    <h1 id="h2"></h1>
+    </div>
+    <button type="button" onclick="redirect()" class="button2" id="bb">Next Sum</button>
+    <div class="span">
+        <h1 class="mba"><hr>MADE BY ABHINAV</h1>
+       </div>
+    <script>
+        function redirect(){
+            window.location.reload();
+        }
+         document.getElementById("bb").style.display ="none"
+         let x = Math.floor((Math.random() * 27) + 1);
+         if (x=="2") {
+            document.getElementById("h1").innerHTML="Q- What's 1-2 ?";
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== -1) {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+                
+            }}
+            
+         
+         if (x=="1"){
+            document.getElementById("h1").innerHTML="Q- Find the length of rectangle (in metres) if its perimeter is 40m and breadth is 10m"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "10m") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="10metre") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="10metres") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="10 metre") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="10 metres") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="10") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else {
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+                
+                
+            } }
+        
+           
+         
+         if (x=="3") {
+            document.getElementById("h1").innerHTML="Q-The area of a rectangular table is 240 square units. Find the length of the table if the width of the table is 20 units."
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "12 units") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y== "12"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="12units"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="12 unit"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="12unit"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+
+            }
+        }
+        
+            
+            
+            
+       if(x=="4"){
+        document.getElementById("h1").innerHTML="Q-Convert the following roman numeral into decimal system : CCLXXVIII"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "278") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else {
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  }
+                    
+            }
+            
+       }     
+        
+       if(x=="5"){
+        document.getElementById("h1").innerHTML="Q-How many diagonals does triangle have?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "0") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="zero"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+                    
+            }
+           
+       }
+
+       if(x=="6"){
+        document.getElementById("h1").innerHTML="Q-What's the square of 71?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "5041") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  }
+                    
+            }
+           
+       }
+       
+       if(x=="7"){
+        document.getElementById("h1").innerHTML="Q-If the area of a square is 169 cm², what is the perimeter of the square?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "52 cm") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="52"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="52cm"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+           
+       }}
+
+       if(x=="8"){
+        document.getElementById("h1").innerHTML="Q-1000 is a perfect cube of?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "10") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block"; } 
+                    
+            }
+           
+       }
+
+       if(x=="9"){
+        document.getElementById("h1").innerHTML="The diagonals of a rhombus are of lengths 18 cm and 21 cm. Find the area of the rhombus."
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "189 cm") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="189"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="189cm"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+           
+       }
+    }
+
+       if(x=="10"){
+        document.getElementById("h1").innerHTML="6/3(1+2)=?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "6") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="six"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+                  
+        }}
+            
+
+       if(x=="11"){
+        document.getElementById("h1").innerHTML="6/2(1+2)=?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "9") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="nine"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+                }
+                    
+            
+                }
+       }
+            
+       if(x=="12"){
+        document.getElementById("h1").innerHTML="72% of 25 students are interested in science. How many no of students aren't?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "7") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="seven"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+              
+            }
+       }
+       
+       if(x=="13"){
+        document.getElementById("h1").innerHTML="What's the cube root of 512"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "8") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="eight"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+       }
+    }
+       
+       if(x=="14"){
+        document.getElementById("h1").innerHTML="What's the 1187-1179"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "8") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+
+                } else if(y=="eight"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";
+                }
+            }
+       }
+    
+
+       if(x=="15"){
+        document.getElementById("h1").innerHTML="What's the cube root of 110592?"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "48") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else {
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  }
+                    
+            }
+           
+       }
+
+       if(x=="16"){
+        document.getElementById("h1").innerHTML="What's the cube root of 1331"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "11") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="eleven"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+                }
+                    
+            
+        }
+       }
+
+       if(x=="17"){
+        document.getElementById("h1").innerHTML="(4p)(0)"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "0") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if (y=="zero"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+                }
+                    
+            }
+           
+       }
+
+       if(x=="18"){
+        document.getElementById("h1").innerHTML="70 X 80"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "5600") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  }
+                    
+            }
+           
+       }
+
+       if(x=="19"){
+        document.getElementById("h1").innerHTML="x+x-x+2x = 30. Find the value of x."
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "10") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="ten"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+                }
+                    
+            }
+           
+       }
+
+       if(x=="20"){
+        document.getElementById("h1").innerHTML="21 X 81"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "1701") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  }
+                    
+            }
+           
+       }
+
+       if(x=="21"){
+        document.getElementById("h1").innerHTML="What's 8(3-2)/8"
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "1") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="one"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block"; 
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block"; 
+                }
+                    
+            }
+           
+       }
+
+       if(x=="22"){
+        document.getElementById("h1").innerHTML="A number is multiplied by 3 and 9 is added to their product. If their result is 27, what was the original number?"
+
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "6") {
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if (y=="six"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+                }
+                    
+            }
+           
+       }
+
+       if(x=="23"){
+        document.getElementById("h1").innerHTML=" The students of Class VIII of a school donated Rs 2401 for Prime Minister National Relief Fund. Each student donated as many rupees as the number of students in the Class. Find the number of students in the Class."
+
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "49"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  }
+            
+            }
+           
+        }
+
+        if(x=="24"){
+        document.getElementById("h1").innerHTML= " If the cost of 20 pens is 180, calculate the cost of 15 pens?"
+
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "135"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+            
+            }
+           
+        }
+    }
+
+        if(x=="25"){
+        document.getElementById("h1").innerHTML= "The ratio of 5 cm to 2.5 m-"
+
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "1:5"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+            
+            }
+           
+        }
+    }
+
+        if(x=="26"){
+        document.getElementById("h1").innerHTML= "3 lambs finish eating turnips in 8 days. How many days will it take for 2 lambs to finish them?"
+
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "12"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="12 days"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+            
+                } else if(y=="12days"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                } else if(y=="12day"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else if(y=="12 day"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                    document.getElementById("h2").innerHTML="You guessed it wrong"
+                    document.getElementById("bb").style.display= "block";  
+                }
+            }
+    }
+
+
+        if(x=="27"){
+        document.getElementById("h1").innerHTML= "What's the origin of coordinates on graph"
+
+            function hehe(){
+                let y = document.getElementById("input1").value
+                if (y== "(0,0)"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";
+                } else if(y=="0,0"){
+                    document.getElementById("h2").innerHTML="You guessed it right"
+                    document.getElementById("bb").style.display= "block";  
+                }else{
+                document.getElementById("h2").innerHTML="You guessed it wrong"
+                document.getElementById("bb").style.display= "block";  
+                }
+           
+        }
+        }
+
+    </script>
+</body>
+</html>
